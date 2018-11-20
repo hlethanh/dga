@@ -1,0 +1,89 @@
+
+/* ************************************ */
+/* Custom			                */
+/* ************************************ */
+.img-custom{
+	border-radius: 6px;	
+	width: 6.5em; 
+	height: 6.5em; 
+}
+.top-spacer-custom{
+	margin-top: 6em;
+}
+
+/* ************************************ */
+/* Navigation			                */
+/* ************************************ */
+.navbar-light-custom{
+	
+	background-color: #FFF !important;
+}
+.navbar-toggler {
+  /*border: none;*/
+  border: 1px solid #ababab;
+  background: transparent !important;
+  padding: 8px 8px;
+}
+.navbar-toggler:focus {
+  outline: none;
+  background: transparent !important;
+}
+.navbar-toggler .icon-bar {
+  /*background-color: #fff;*/
+  background-color: #000;
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: ease all .2s;
+}
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggler .icon-bar+.icon-bar {
+
+	margin-top: 4px;
+}
+/*.icon-bar:nth-child(2) {
+  width: 16px;
+  transition: ease all .2s;
+}
+.navbar-toggler:hover>.icon-bar:nth-child(2) {
+  width: 22px;
+  transition: ease all .2s;
+}*/
+.navbar-toggler:active>.icon-bar:nth-child(2) {
+  width: 22px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 4px);
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+  opacity: 0;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+  transition: ease all .2s;
+}
+
+/* ************************************ */
+/* SEARCH - TEAM SECTION                */
+/* ************************************ */
+.card-img-overlay {
+	height: 10.0rem;
+}
+.card-body{
+	padding-top: 0.5rem;
+}
+.card-body > img{
+	margin-bottom: 0.8rem;
+}
+.card-body > ul > li{
+	font-size: 0.8rem;
+}
